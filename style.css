@@ -5,9 +5,8 @@ body {
 }
 
 img {
-	position: absolute;	
-	top: 256px;
-	width: 1920px;
+	position: absolute;
+	width: 1900px;
 }
 
 .shop {
@@ -27,7 +26,7 @@ img {
 	.shop-button {
 		width: 50px;
 	}
-	#entresse {
+	#entresse, #entresseico {
 		top: 350px;
 		left: 960px;
 	}
