@@ -1,0 +1,41 @@
+body {
+	background-color: black;
+	font-family: "Open Sans", sans-serif;
+	font-weight: bold;
+}
+
+img {
+	position: absolute;	
+	top: 256px;
+	width: 1920px;
+}
+
+.shop {
+	width: 700px;
+	background-color: white;
+	color: black;
+	height: 300px;
+	position: absolute;
+
+	outline: 2px solid white;
+	outline-offset: 5px;
+	border: 2px solid black;
+	font-size: 24px;
+
+	visibility: hidden;
+}
+	.shop-button {
+		width: 50px;
+	}
+	#entresse {
+		top: 350px;
+		left: 960px;
+	}
+
+	.shop-cont {
+		margin: 24px;
+	}
+
+		.shop-title { font-size: 55px; }
+		.shop-time { opacity: 0.9; }
+		.shop-bio { font-size: 18px; margin-top: 12px; }
