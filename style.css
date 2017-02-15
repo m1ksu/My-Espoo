@@ -28,7 +28,7 @@ body > img {
 	}
 
 	.shop-button:hover { cursor: pointer; }
-	
+
 	#entresse, #entresseico {
 		top: 450px;
 		left: 400px;
@@ -67,12 +67,12 @@ body > img {
 		.shop-title { font-size: 55px; }
 		.shop-time { opacity: 0.9; }
 		.shop-bio { font-size: 18px; margin-top: 12px; }
-		
+
 		.shop-view {
 			font-size: 36px;
 			margin-top: 16px;
 		}
-	
+
 			.shop-view > img {
 				width: 48px;
 				vertical-align: middle;
@@ -83,7 +83,7 @@ body > img {
 			#espoontori img {
 				margin-right: 8px;
 			}
-	
+
 			.shop-view > span {
 				border-bottom: 3px solid black;
 			}
@@ -97,7 +97,7 @@ body > img {
 	width: 100%;
 }
 	.mall-exit {
-		font-size: 176px;
+		font-size: 124px;
 
 		position: absolute;
 		margin-left: 96px;
@@ -109,3 +109,7 @@ body > img {
 		-webkit-text-stroke-width: 1px;
   		-webkit-text-stroke-color: black;
 	}
+
+    .mall-exit:hover {
+        cursor: pointer;
+    }
