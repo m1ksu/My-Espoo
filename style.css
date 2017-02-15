@@ -4,7 +4,7 @@ body {
 	font-weight: bold;
 }
 
-img {
+body > img {
 	position: absolute;
 	width: 1900px;
 }
@@ -13,7 +13,7 @@ img {
 	width: 700px;
 	background-color: white;
 	color: black;
-	height: 300px;
+	height: 350px;
 	position: absolute;
 
 	outline: 2px solid white;
@@ -26,15 +26,86 @@ img {
 	.shop-button {
 		width: 50px;
 	}
+
+	.shop-button:hover { cursor: pointer; }
+	
 	#entresse, #entresseico {
-		top: 350px;
-		left: 960px;
+		top: 450px;
+		left: 400px;
 	}
+
+	#espoontori {
+		top: 400px;
+		left: 750px;
+		text-align: right;
+		height: 370px;
+	}
+
+		#espoontoriico {
+			top: 400px;
+			left: 1400px;
+		}
+
+		#espoontori .shop-close { float: left; }
 
 	.shop-cont {
 		margin: 24px;
 	}
 
+		.shop-close {
+			float: right;
+			font-size: 42px;
+			font-weight: bold;
+			width: 48px;
+			height: 48px;
+			margin: 20px;
+			margin-top: 32px;
+		}
+
+		.shop-close:hover { cursor: pointer; }
+
 		.shop-title { font-size: 55px; }
 		.shop-time { opacity: 0.9; }
 		.shop-bio { font-size: 18px; margin-top: 12px; }
+		
+		.shop-view {
+			font-size: 36px;
+			margin-top: 16px;
+		}
+	
+			.shop-view > img {
+				width: 48px;
+				vertical-align: middle;
+				margin-right: 16px;
+				margin-left: 8px;
+			}
+
+			#espoontori img {
+				margin-right: 8px;
+			}
+	
+			.shop-view > span {
+				border-bottom: 3px solid black;
+			}
+
+
+		.shop-view:hover { cursor: pointer; }
+
+.mall {
+	visibility: hidden;
+	height: 100%;
+	width: 100%;
+}
+	.mall-exit {
+		font-size: 176px;
+
+		position: absolute;
+		margin-left: 96px;
+
+		color: white;
+		height: 96px;
+		width: 96px;
+
+		-webkit-text-stroke-width: 1px;
+  		-webkit-text-stroke-color: black;
+	}
