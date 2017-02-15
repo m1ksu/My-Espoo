@@ -1,31 +1,30 @@
 $(function () {
 
-    var flipped = {'entresse': false};
-
     $(".shop").fadeOut();
     $(".mall").fadeOut();
 
 
-
     $('#entresseico').click(function () {
-
         open("entresse");
     });
 
     $('#espoontoriico').click(function () {
-
         open("espoontori");
     });
+
 
     $('.shop-view').click(function () {
     	inside($(this).parent().parent().attr("id"));
     });
 
-
+    $('.mall-exit').click(function () {
+        outside();
+    });
 
     $('.shop-close').click(function () {
     	close($(this).parent().attr("id"));
     });
+
 
     function close (shop) {
     	$("#" + shop).slideUp();
@@ -46,6 +45,7 @@ $(function () {
     }
 
     function outside () {
-
+        $('.mall').fadeOut();
     }
+
 });
