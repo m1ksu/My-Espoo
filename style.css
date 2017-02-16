@@ -4,7 +4,7 @@ body {
 	font-weight: bold;
 }
 
-body > img {
+.main-image {
 	position: absolute;
 	width: 1900px;
 }
@@ -25,6 +25,7 @@ body > img {
 }
 	.shop-button {
 		width: 50px;
+        position: absolute;
 	}
 
 	.shop-button:hover { cursor: pointer; }
@@ -95,7 +96,14 @@ body > img {
 	visibility: hidden;
 	height: 100%;
 	width: 100%;
+    position: absolute;
+    top: 8px;
 }
+
+    .mall-image {
+        width: 1895px;
+    }
+
 	.mall-exit {
 		font-size: 124px;
 
