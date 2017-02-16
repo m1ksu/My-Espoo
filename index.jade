@@ -1,43 +1,94 @@
 //- out: .
 doctype html
 html
-    head
-        title My Espoo
-        meta(charset="utf-8")
-        link(href="style.css" rel="stylesheet")
-        link(href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet")
-        script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js")
-        script(src="script.js")
+	head
+		title My Espoo
+		meta(charset="utf-8")
+		link(href="style.css" rel="stylesheet")
+		link(href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet")
+		script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js")
+		script(src="script.js")
 
-    body
-        .main
-            img.main-image(src="img/main.jpg")
-        
-            img.shop-button#entresseico(src="infoicon.png")
-            .shop#entresse
-                .shop-close X
-                .shop-cont
-                    .shop-title Entresse
-                    .shop-time MA-PE 9-20, LA 9-18, SU 12-18
-                    .shop-bio.
-                        Entresse sijoittuu keskustorin varteen, pääkaupunkiseudun suurimpiin kuuluvan supermarketin ja asuntoalueelta tulevan Siltakadun ylittävän kevyenliikenteen raitin väliin. Entresse sijoittuu keskustorin varteen, pääkaupunkiseudun suurimpiin kuuluvan supermarketin ja asuntoalueelta tulevan Siltakadun ylittävän kevyenliikenteen raitin väliin.
+	body
+		
+		.main
+			img.main-image(src="img/main.jpg")
+		
+			img.shop-button#entresseico(src="infoicon.png")
+			.shop#entresse
+				.shop-close X
+				.shop-cont
+					.shop-title Entresse
+					.shop-time MA-PE 9-20, LA 9-18, SU 12-18
+					.shop-bio.
+						Entresse sijoittuu keskustorin varteen, pääkaupunkiseudun suurimpiin kuuluvan supermarketin ja asuntoalueelta tulevan Siltakadun ylittävän kevyenliikenteen raitin väliin. Entresse sijoittuu keskustorin varteen, pääkaupunkiseudun suurimpiin kuuluvan supermarketin ja asuntoalueelta tulevan Siltakadun ylittävän kevyenliikenteen raitin väliin.
 
-                    .shop-view 
-                        img(src="viewicon.png") 
-                        span KATSO SISÄÄN
+					.shop-view 
+						img(src="viewicon.png") 
+						span KATSO SISÄÄN
 
-            img.shop-button#espoontoriico(src="infoicon.png")
-            .shop#espoontori
-                .shop-close X
-                .shop-cont
-                    .shop-title Espoontori
-                    .shop-time MA-PE 7-21, LA 8-21, SU 10-20
-                    .shop-bio.
-                        Espoontori sijaitsee hyvien liikenneyhteyksien varrella Espoon keskuksen rautatieaseman vieressä. Kauppakeskukseen on helppo tulla busseilla ja junalla. Pysäköimällä autosi ilmaiseksi uudistuneelle pysäköintialueellemme pääset lähelle kauppakeskuksen monipuolisia liikkeitä ja palveluja. Espoontorilla kaikki päivittäiset ostoksesi hoituvat sujuvasti, muitta mutkitta. Päivittäistavaraliikkeiden lisäksi sinua palvelee lähes 30 erikoisliikettä.
+			img.shop-button#espoontoriico(src="infoicon.png")
+			.shop#espoontori
+				.shop-close X
+				.shop-cont
+					.shop-title Espoontori
+					.shop-time MA-PE 7-21, LA 8-21, SU 10-20
+					.shop-bio.
+						Espoontori sijaitsee hyvien liikenneyhteyksien varrella Espoon keskuksen rautatieaseman vieressä. Kauppakeskukseen on helppo tulla busseilla ja junalla. Pysäköimällä autosi ilmaiseksi uudistuneelle pysäköintialueellemme pääset lähelle kauppakeskuksen monipuolisia liikkeitä ja palveluja. Espoontorilla kaikki päivittäiset ostoksesi hoituvat sujuvasti, muitta mutkitta. Päivittäistavaraliikkeiden lisäksi sinua palvelee lähes 30 erikoisliikettä.
 
-                    .shop-view 
-                        img(src="viewicon.png") 
-                        span KATSO SISÄÄN 
-                    
-        .mall#entressemall
-            img.mall-image(src="img/entresse.jpg")
+					.shop-view 
+						img(src="viewicon.png") 
+						span KATSO SISÄÄN 
+					
+		.mall#entressemall
+			img.mall-image(src="img/entresse.jpg")
+			.mall-exit x
+
+			img.mall-shop-button#spiceiceico(src="infoicon.png")
+			.mall-shop#spiceice
+				.shop-close X
+				.shop-cont
+					.shop-title Cafe Rento
+					.shop-time MA-PE 9-20, LA 9-18, SU 12-16
+					.shop-bio.
+						Maistuvat kahvit, laaja teevalikoima sekä erikoiskahvit antavat mahdollisuuden hengähtää hetkisen laadukkaassa ympäristössä. Lisäksi Cafe Rennosta saa valikoiman erilaisia salaatteja ja lämpimissä ruoissa on valikoimaa jokaiseen makuun. Cafe Rennosta löydät myös Spice Ice jäätelöt.
+
+		.mall#espoontorimall
+			img.mall-image(src="img/espoontori.jpg")
+			.mall-exit x
+
+			img.mall-shop-button#kmarketico(src="infoicon.png")
+			.mall-shop#kmarket
+				.shop-close X
+				.shop-cont
+					.shop-title K-Supermarket
+					.shop-time MA-PE 9-21, LA 8-21, SU 10-20
+					.shop-bio.
+						K-Market on lähellä asiakasta sijaitseva lämminhenkinen ruokakauppa, jossa saat henkilökohtaista palvelua. K-Market tarjoaa uunituoretta leipää, raikkaita hedelmiä ja vihanneksia sekä laadukkaita ruoan raaka-aineita.
+
+			img.mall-shop-button#fitnessico(src="infoicon.png")
+			.mall-shop#fitness
+				.shop-close X
+				.shop-cont
+					.shop-title Fitness24Seven
+					.shop-time MA-PE 9-21, LA 8-21, SU 10-20
+					.shop-bio.
+						Uudet ja raikkaat tilat monipuoliseen kuntoiluun hyvien yhteyksien ulottuvilla ja palveluiden keskellä, Espoontorin kolmannessa kerroksessa. Treenaa milloin haluat! Kuntokeskuksessa on laadukkaat cardio-laitteet, helppokäyttöiset lihaskuntolaitteet, laaja lisäravinnevalikoima sekä hymyilevää asiakaspalvelua viitenä päivänä viikossa.
+
+			img.mall-shop-button#tokmanniico(src="infoicon.png")
+			.mall-shop#tokmanni
+				.shop-close X
+				.shop-cont
+					.shop-title Tokmanni
+					.shop-time MA-PE 7-21, LA 8-21, SU 10-20
+					.shop-bio.
+						Tokmanni on käyttötavaroiden myyntiin keskittynyt vähittäiskauppaketju. Noin 3 200 tokmannilaista helpottaa ihmisten arkea ja juhlaa tarjoamalla monipuolisen ja ajankohtaisen valikoiman kotimaisia ja kansainvälisiä merkkituotteita sekä muita laadukkaita tuotteita aina edulliseen hintaan. Yli 160:n eri puolilla Suomea sijaitsevan myymälänsä ja verkkokauppansa ansiosta Tokmanni on aina lähellä palvelemassa ihmisiä.
+
+			img.mall-shop-button#pepeparturiico(src="infoicon.png")
+			.mall-shop#pepeparturi
+				.shop-close X
+				.shop-cont
+					.shop-title Parturi-Kampaamo Salon Pepe Åhman
+					.shop-time MA-PE 7-21, LA 8-21, SU 10-20
+					.shop-bio.
+						Tervetuloa tutustumaan valoisaan liiketilaamme Espoontorin 2. kerrokseen! Tule meille rentoutumaan osaaviin käsiin. Asiakaspalveluhenkiset hiusmuotoilijat toivottavat juuri sinut tervetulleeksi!
