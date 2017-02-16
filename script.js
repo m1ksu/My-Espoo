@@ -17,7 +17,23 @@ $(function () {
 		$('#spiceiceico').click(function () {
 			open("spiceice");
 		});
-	
+
+        $('#smarketico').click(function () {
+			open("smarket");
+		});
+
+        $('#lindexico').click(function () {
+			open("lindex");
+		});
+
+        $('#specsico').click(function () {
+			open("specs");
+		});
+
+        $('#kirjatoriico').click(function () {
+			open("kirjatori");
+		});
+
 	// Espoontorin Kaupat
 		$('#kmarketico').click(function () {
 			open("kmarket");

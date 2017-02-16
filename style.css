@@ -8,6 +8,8 @@ body {
 .main-image {
 	position: absolute;
 	width: 1920px;
+    border-bottom: 2px solid white;
+    box-shadow: 0 0 20px 0px rgba(255, 255, 255, 0.85);
 }
 
 .shop, .mall-shop { z-index: 10; }
@@ -30,7 +32,7 @@ body {
 	.shop-button {
 		width: 50px;
 		position: absolute;
-		box-shadow: 0 0 20px 10px white;
+		box-shadow: 0 0 30px 7px white;
 	}
 
 	.shop-button:hover { cursor: pointer; }
@@ -87,7 +89,7 @@ body {
 	position: absolute;
 	z-index: 10;
 }
-	
+
 	.mall-shop {
 		width: 700px;
 		background-color: white;
@@ -101,7 +103,7 @@ body {
 		font-size: 24px;
 		box-shadow: 0 0 50px 10px white;
 
-		visibility: hidden;		
+		visibility: hidden;
 	}
 
 	.mall-shop-button {
@@ -128,6 +130,7 @@ body {
 		color: white;
 		height: 96px;
 		width: 96px;
+        font-family: sans-serif;
 
 		text-shadow: 0 0 50px white;
 
@@ -166,6 +169,30 @@ body {
 		left: 400px;
 	}
 
+    #smarket, #smarketico {
+        top: 460px;
+        left: 800px;
+    }
+
+    #lindex, #lindexico {
+        top: 360px;
+        left: 925px;
+    }
+
+    #specs, #specsico {
+        top: 410px;
+        left: 875px;
+    }
+
+    #kirjatori, #kirjatoriico {
+        top: 270px;
+        left: 1090px;
+    }
+
+    #smarketico, #lindexico, #specsico {
+        width: 35px;
+    }
+
 /* Espoontorin Kaupat */
 	#kmarket, #kmarketico {
 		top: 640px;
@@ -188,11 +215,11 @@ body {
 
 	#pepeparturiico {
 		left: 1250px;
-		top: 400px;	
+		top: 400px;
 	}
 		#pepeparturi {
 			left: 1100px;
-			top: 400px;	
+			top: 400px;
 		}
 		#pepeparturi .shop-title {
 			font-size: 40px;
